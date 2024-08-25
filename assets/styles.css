@@ -1,13 +1,16 @@
+/* Universal box-sizing and reset for margin and padding */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background color for the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Header title styling */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* SEO part of header title styling */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Navigation menu styling */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,31 @@ body {
     font-size: 20px;
 }
 
+/* Navigation list styling */
 .header div ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
+/* Inline display of navigation items */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* General link styling */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraph styling */
 p {
     font-size: 16px;
 }
 
+/* Hero image styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +72,26 @@ p {
     background-position: center;
 }
 
+/* Floating left images */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Floating right images */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Main content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Benefits section styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,55 +103,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Individual benefit sections styling */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Centering and adding margin to benefit headers */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Centering and limiting width of benefit images */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Marketing strategy sections styling */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,51 +132,18 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Limiting height of images in marketing strategy sections */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Adjusting margin and font size for section headers */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer styling */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +151,7 @@ p {
     text-align: center;
 }
 
+/* Footer heading font size adjustment */
 .footer h2 {
     font-size: 20px;
 }
